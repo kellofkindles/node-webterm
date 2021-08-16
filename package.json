@@ -4,7 +4,10 @@
   "description": "A simple webterminal using terminal.js and child_pty",
   "scripts": {
     "test": "jshint app.js public",
-    "start": "npm install;DEBUG='*' node app.js"
+    "start": "DEBUG='*' node app.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "author": "Enno Boland <eb@s01.de>",
   "license": "MIT",
